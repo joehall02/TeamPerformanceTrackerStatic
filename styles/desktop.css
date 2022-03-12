@@ -1,0 +1,16 @@
+nav {
+  height: 75px;
+}
+
+.logo {
+  width: 250px;
+  height: 50px;
+}
+
+.name {
+  font-size: x-large;
+}
+
+.page-name {
+  text-align: center;
+}
