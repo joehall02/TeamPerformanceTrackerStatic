@@ -13,10 +13,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 500px;
 }
 
 .center h1 {
+  color: #135392;
   text-align: center;
   padding: 10px 0 20px 0;
 }
@@ -33,7 +34,7 @@ form .txt_field {
 }
 
 .txt_field input {
-  width: 100;
+  width: 100%;
   padding: 0 5px;
   height: 40px;
   font-size: 16px;
@@ -60,7 +61,7 @@ form .txt_field {
   width: 0%;
   height: 2px;
   background: #94c216;
-  transition: 0.5;
+  transition: 0.5s;
 }
 
 .txt_field input:focus ~ label,
