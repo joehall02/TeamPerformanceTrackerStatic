@@ -2,6 +2,7 @@
   margin: 0 45px 0 45px;
 }
 
+/* Nav Bar */
 nav {
   height: 75px;
 }
@@ -24,6 +25,7 @@ nav ul li {
   font-size: large;
 }
 
+/* Heading of page */
 .heading {
   flex-direction: row;
   align-items: center;
@@ -33,6 +35,7 @@ nav ul li {
   display: block;
 }
 
+/* Buttons */
 .green-button {
-  padding: 30px 40px 30px 40px;
+  padding: 20px 40px 20px 40px;
 }
