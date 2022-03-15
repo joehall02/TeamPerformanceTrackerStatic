@@ -24,6 +24,15 @@ nav ul li {
   font-size: large;
 }
 
+.heading {
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading-buttons {
+  display: block;
+}
+
 .green-button {
-  padding: 30px 50px 30px 50px;
+  padding: 30px 40px 30px 40px;
 }
