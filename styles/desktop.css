@@ -1,5 +1,13 @@
+.main {
+  margin: 0 45px 0 45px;
+}
+
 nav {
   height: 75px;
+}
+
+nav ul li {
+  width: 33%;
 }
 
 .logo {
@@ -14,4 +22,8 @@ nav {
 .page-name {
   text-align: center;
   font-size: large;
+}
+
+.green-button {
+  padding: 30px 50px 30px 50px;
 }
