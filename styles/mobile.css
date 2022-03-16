@@ -193,7 +193,7 @@ nav ul li {
 .performance-table table td {
   border: 1px solid #135392;
   padding: 15px;
-  font-size: xx-large;
+  font-size: medium;
   font-weight: bolder;
   color: #135392;
 }
@@ -201,7 +201,7 @@ nav ul li {
 .performance-table table thead {
   background-color: #135392;
   color: white;
-  font-size: xx-large;
+  font-size: medium;
 }
 
 /* System manager and team leader team table */
@@ -224,6 +224,10 @@ nav ul li {
   justify-content: space-between;
   flex-direction: row;
   border-bottom: 2px solid #135392;
+}
+
+.home-team-table table tr:last-child {
+  border: none;
 }
 
 .home-team-table table tr td {

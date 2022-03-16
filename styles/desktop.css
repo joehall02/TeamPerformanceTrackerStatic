@@ -46,6 +46,15 @@ nav ul li {
 
 /* Tables */
 
+/* Performance table */
+.performance-table table td {
+  font-size: xx-large;
+}
+
+.performance-table table thead {
+  font-size: xx-large;
+}
+
 /* System manager and team leader team table */
 .home-team-table table {
   font-size: x-large;
