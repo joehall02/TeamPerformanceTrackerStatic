@@ -49,6 +49,13 @@ nav ul li {
   padding: 0;
 }
 
+/* Team member */
+
+/* Team member home page */
+.team-member-home {
+  flex-direction: row;
+}
+
 /* Compare Teams page */
 .compare-graph-container {
   flex-direction: row;
