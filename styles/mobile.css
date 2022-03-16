@@ -18,7 +18,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 400px;
 }
 
 .center h1 {
@@ -123,7 +123,7 @@ nav ul li {
   font-weight: bold;
   color: #093968;
   text-align: center;
-  font-size: small;
+  font-size: x-small;
   white-space: nowrap;
 }
 
@@ -148,6 +148,7 @@ nav ul li {
 .heading-buttons {
   display: flex;
   justify-content: space-between;
+  font-size: small;
 }
 
 /* System manager and team leader
@@ -215,7 +216,7 @@ nav ul li {
   height: 100%;
   color: #135392;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: medium;
 }
 
 .home-team-table table tr {
