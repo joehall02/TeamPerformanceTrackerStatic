@@ -6,9 +6,8 @@ body {
 
 .main {
   margin: 0 10px 0 10px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
-
 .container {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -151,16 +150,83 @@ nav ul li {
   justify-content: space-between;
 }
 
+/* System manager and team leader
+
+/* System manager and team leader home page top */
+.home-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-top div {
+  flex: 50%;
+  padding: 20px 0 20px;
+}
+
+/* Graphs */
+.line-graph {
+  width: 100%;
+  height: 100%;
+}
+
+.line-graph img {
+  height: 100%;
+  width: 100%;
+}
+
 /* Tables */
 
 /* Performance Table */
+.performance-table {
+  width: 100%;
+  height: 100%;
+}
+
 .performance-table table {
   border: 4px solid #135392;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.performance-table table td {
+  border: 1px solid #135392;
+  padding: 15px;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #135392;
 }
 
 .performance-table table thead {
   background-color: #135392;
   color: white;
+  font-size: xx-large;
+}
+
+/* System manager and team leader team table */
+.home-team-table {
+  padding: 60px 0 0;
+}
+
+.home-team-table table {
+  border: 4px solid #135392;
+  border-spacing: 0;
+  width: 100%;
+  height: 100%;
+  color: #135392;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.home-team-table table tr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 2px solid #135392;
+}
+
+.home-team-table table tr td {
+  padding: 25px;
 }
 
 /* Buttons */
