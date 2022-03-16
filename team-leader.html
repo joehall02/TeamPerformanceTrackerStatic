@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:1000px)"
+      href="styles/desktop.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><img class="logo" src="images/logo.jpeg" /></li>
+            <li><h2 class="name">Automation Team Performance Tracker</h2></li>
+            <li><p class="page-name">Login Page</p></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main">
+        <div class="heading">
+          <h1>Teams</h1>
+          <div class="heading-buttons">
+            <a href="edit-team.html" class="green-button">Edit Team</a>
+          </div>
+        </div>
+
+        <div class="home-top">
+          <div class="line-graph">
+            <img src="images/line-graph-example.png" />
+          </div>
+          <!-- Dynamic -->
+          <div class="performance-table">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2">Overall Performance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monthly Profit:</td>
+                  <td>£0.001</td>
+                </tr>
+                <tr>
+                  <td>Monthly Profit (%):</td>
+                  <td>-0.001%</td>
+                </tr>
+                <tr>
+                  <td>Total Profit</td>
+                  <td>£3,545</td>
+                </tr>
+                <tr>
+                  <td>Profit (%)</td>
+                  <td>19.54%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Dynamic -->
+        <div class="home-team-table">
+          <table>
+            <tr>
+              <td>Team Member 1</td>
+              <td>
+                <a href="view-data" class="green-button">View Data</a>
+                <a href="edit-data" class="green-button">Edit Data</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Team Member 2</td>
+              <td>
+                <a href="view-data" class="green-button">View Data</a>
+                <a href="edit-data" class="green-button">Edit Data</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Team Member 3</td>
+              <td>
+                <a href="view-data" class="green-button">View Data</a>
+                <a href="edit-data" class="green-button">Edit Data</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
