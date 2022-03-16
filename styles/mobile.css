@@ -84,11 +84,12 @@ form .txt_field {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #94c216;
+  background: #135392;
   border-radius: 15px;
   font-size: 20px;
   color: white;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 /* Nav Bar */
@@ -171,8 +172,32 @@ nav ul li {
 }
 
 .line-graph img {
-  height: 100%;
   width: 100%;
+  height: 100%;
+}
+
+.bar-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.bar-chart img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Compare Teams page */
+.compare-graph-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.compare-graph-container div select {
+  padding: 10px;
+  color: #135392;
+  font-weight: bolder;
+  border: none;
+  outline: none;
 }
 
 /* Tables */
@@ -242,4 +267,15 @@ nav ul li {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.green-button-small {
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+  background-color: #94c216;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
 }

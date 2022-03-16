@@ -2,6 +2,11 @@
   margin: 0 45px 0 45px;
 }
 
+/* Login Page */
+.center input[type="submit"]:hover {
+  background: #94c216;
+}
+
 /* Nav Bar */
 nav {
   height: 75px;
@@ -44,6 +49,11 @@ nav ul li {
   padding: 0;
 }
 
+/* Compare Teams page */
+.compare-graph-container {
+  flex-direction: row;
+}
+
 /* Tables */
 
 /* Performance table */
@@ -63,4 +73,16 @@ nav ul li {
 /* Buttons */
 .green-button {
   padding: 20px 40px 20px 40px;
+}
+
+.green-button:hover {
+  background-color: #135392;
+}
+
+.green-button-small {
+  padding: 20px 40px 20px 40px;
+}
+
+.green-button-small:hover {
+  background-color: #135392;
 }
