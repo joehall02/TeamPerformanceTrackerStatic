@@ -159,22 +159,24 @@ nav ul li {
   padding: 20px 0 20px;
 }
 
-/* Team member */
-
-/* Team member home page */
-.team-member-home {
+/* Side Bar */
+.side-bar-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
-.team-member-home div {
-  flex: 50%;
+.side-bar-container div:first-child {
+  flex: 40%;
 }
 
-.team-member-side-bar {
+.side-bar-container div {
+  flex: 60%;
 }
 
-.team-member-side-bar h3 {
+.side-bar {
+}
+
+.side-bar h3 {
   padding: 15px 0;
 }
 

@@ -49,16 +49,26 @@ nav ul li {
   padding: 0;
 }
 
-/* Team member */
-
-/* Team member home page */
-.team-member-home {
+/* Side Bar */
+.side-bar-container {
   flex-direction: row;
 }
 
 /* Compare Teams page */
 .compare-graph-container {
   flex-direction: row;
+}
+
+/* Graphs */
+
+.team-member-graph {
+  width: 70%;
+  height: 70%;
+}
+
+.team-member-graph img {
+  width: 70%;
+  height: 70%;
 }
 
 /* Tables */
