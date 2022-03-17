@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actemium tpt | Engineer Feedback</title>
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:1000px)"
+      href="styles/desktop.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><img class="logo" src="images/logo.jpeg" /></li>
+            <li><h2 class="name">Automation Team Performance Tracker</h2></li>
+            <li><p class="page-name">Compare Data</p></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main">
+        <div class="heading">
+          <h1>Engineer Feedback</h1>
+          <div class="heading-buttons">
+            <a href="create-member.html" class="green-button-small">Go Back</a>
+          </div>
+        </div>
+
+        <!-- Dynamic -->
+        <div class="compare-graph-container">
+          <div>
+            <select name="left-graph">
+              <option value="">Please Choose a Member</option>
+              <option value="dog">Member 1</option>
+              <option value="cat">Member 2</option>
+              <option value="hamster">Member 3</option>
+              <option value="parrot">Member 4</option>
+            </select>
+            <div class="bar-chart">
+              <img src="images/bar-graph-example.png" />
+            </div>
+          </div>
+          <div>
+            <select name="right-graph">
+              <option value="">Please Choose a Member</option>
+              <option value="dog">Member 1</option>
+              <option value="cat">Member 2</option>
+              <option value="hamster">Member 3</option>
+              <option value="parrot">Member 4</option>
+            </select>
+            <div class="bar-chart">
+              <img src="images/bar-graph-example.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

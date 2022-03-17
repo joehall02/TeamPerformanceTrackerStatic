@@ -2,6 +2,12 @@
   margin: 0 45px 0 45px;
 }
 
+/* Login Page */
+.center input[type="submit"]:hover {
+  background: #94c216;
+}
+
+/* Nav Bar */
 nav {
   height: 75px;
 }
@@ -24,6 +30,76 @@ nav ul li {
   font-size: large;
 }
 
+/* Heading of page */
+.heading {
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading-buttons {
+  display: block;
+}
+
+/* System manager and team leader home page top */
+.home-top {
+  flex-direction: row;
+}
+
+.home-top div {
+  padding: 0;
+}
+
+/* Side Bar */
+.side-bar-container {
+  flex-direction: row;
+}
+
+/* Compare Teams page */
+.compare-graph-container {
+  flex-direction: row;
+}
+
+/* Graphs */
+
+.team-member-graph {
+  width: 70%;
+  height: 70%;
+}
+
+.team-member-graph img {
+  width: 70%;
+  height: 70%;
+}
+
+/* Tables */
+
+/* Performance table */
+.performance-table table td {
+  font-size: xx-large;
+}
+
+.performance-table table thead {
+  font-size: xx-large;
+}
+
+/* System manager and team leader team table */
+.home-team-table table {
+  font-size: x-large;
+}
+
+/* Buttons */
 .green-button {
-  padding: 30px 50px 30px 50px;
+  padding: 20px 40px 20px 40px;
+}
+
+.green-button:hover {
+  background-color: #135392;
+}
+
+.green-button-small {
+  padding: 20px 40px 20px 40px;
+}
+
+.green-button-small:hover {
+  background-color: #135392;
 }

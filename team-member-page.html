@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actemium tpt | login</title>
+    <title>Actemium tpt | Home</title>
     <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
     <link
       rel="stylesheet"
@@ -11,6 +11,7 @@
       href="styles/desktop.css"
     />
   </head>
+
   <body>
     <div class="container">
       <header>
@@ -18,26 +19,31 @@
           <ul>
             <li><img class="logo" src="images/logo.jpeg" /></li>
             <li><h2 class="name">Automation Team Performance Tracker</h2></li>
-            <li><p class="page-name">Login Page</p></li>
+            <li><p class="page-name">Home Page</p></li>
           </ul>
         </nav>
       </header>
 
-      <div class="center">
-        <h1>Login</h1>
-        <form action="sys-manager.html">
-          <div class="txt_field">
-            <input type="text" required />
-            <span></span>
-            <label>ID</label>
+      <div class="main">
+        <div class="heading">
+          <h1>My Team</h1>
+          <div class="heading-buttons">
+            <a href="create-member.html" class="green-button-small">Go Back</a>
           </div>
-          <div class="txt_field">
-            <input type="text" required />
-            <span></span>
-            <label>Password</label>
+        </div>
+
+        <!-- Dynamic -->
+        <div class="side-bar-container">
+          <div class="side-bar">
+            <h3>Project Performance</h3>
+            <h3>Feedback Scores: 81%</h3>
+            <h3>Productivity Percentage 78%</h3>
           </div>
-          <input type="submit" value="Login" />
-        </form>
+
+          <div class="team-member-graph">
+            <img src="images/team-member-graph-example.png" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
