@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actemium tpt | View Member Data </title>
+    <title>Actemium tpt | New Member Data </title>
     <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
     <link rel="stylesheet" media="only screen and (min-width:1000px)" href="styles/desktop.css" />
 </head>
@@ -19,7 +19,7 @@
                         <h2 class="name">Automation Team Performance Tracker</h2>
                     </li>
                     <li>
-                        <p class="page-name">View Member Data</p>
+                        <p class="page-name">Create Member Data</p>
                     </li>
                 </ul>
             </nav>
@@ -37,19 +37,19 @@
                     <tbody>
                         <tr>
                             <td>First Name:</td>
-                            <td>Tom</td>
+                            <td><input type="text" required></td>
                         </tr>
                         <tr>
                             <td>Last Name:</td>
-                            <td>Hanks</td>
+                            <td><input type="text" required></td>
                         </tr>
                         <tr>
                             <td>Date of Birth:</td>
-                            <td>04/11/1989</td>
+                            <td><input type="text" required></td>
                         </tr>
                         <tr>
                             <td>Start Date:</td>
-                            <td>09/07/2017</td>
+                            <td><input type="text" required></td>
                         </tr>
                     </tbody>
                 </table>
@@ -60,19 +60,27 @@
                     <tbody>
                         <tr>
                             <td>Team:</td>
-                            <td>Team 1</td>
+                            <td><input type="text" required></td>
                         </tr>
                         <tr>
                             <td>Project:</td>
-                            <td>Project 1</td>
+                            <td>
+                                <select class="select-project">
+                                    <option value="">Select Project</option>
+                                    <option value="p1">Project 1</option>
+                                    <option value="p2">Project 2</option>
+                                    <option value="p3">Project 3</option>
+                                    <option value="p4">Project 4</option>
+                                  </select>
+                            </td>
                         </tr>
                         <tr>
                             <td>Cooperation:</td>
-                            <td>8.2</td>
+                            <td><input type="text"></td>
                         </tr>
                         <tr>
                             <td>Project Feedback:</td>
-                            <td>7.1</td>
+                            <td><input type="text"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -80,8 +88,8 @@
         </div>
 
         <div class="btn">
-            <a href="sys-manager.html" class="green-button" style="width: 115px; text-align: center;">Back</a>
-            <a href="#" class="red-button" style="width: 115px; text-align: center;">Delete Member</a>
+            <a href="sys-manager.html" class="green-button" style="width: 140px; text-align: center;">Back</a>
+            <a href="member-data.html" class="green-button" style="width: 140px; text-align: center;">Update Member</a>
         </div>
 
     </div>
