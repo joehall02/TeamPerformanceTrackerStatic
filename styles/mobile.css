@@ -304,6 +304,9 @@ nav ul li {
   text-decoration: none;
   transition: 0.3s;
 }
+button {
+  box-shadow: none;
+}
 
 /* View Member Data Buttons */
 
@@ -471,8 +474,8 @@ nav ul li {
   outline: none;
 }
 .view-members {
-  background-color:#94c216;
-  color:white;
+  background-color: #94c216;
+  color: white;
   border: none;
   font-size: 30px;
   font-weight: bold;
@@ -480,4 +483,12 @@ nav ul li {
 
 .view-members:focus {
   outline: none;
+}
+
+.create-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 35px;
+  text-align: center;
 }
