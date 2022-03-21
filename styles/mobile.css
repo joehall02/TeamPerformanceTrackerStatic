@@ -316,49 +316,42 @@ button {
   transition: 0.3s;
 }
 
-.btn {
+.btn-bottom {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 35px;
-}
-
-.btn a:first-child {
-  margin-right: -350px;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 /* View Member Data Table */
 
 .member-info-table {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .member-info-table table {
   border: 4px solid #093968;
   border-spacing: 0;
-  width: 97vh;
-  height: 100%;
-  margin-top: -50px;
+  width: 100%;
 }
 
-.t1 {
-  margin-left: 38px;
+.member-info-table table:first-child {
+  border-bottom: none;
 }
 
-.t2 {
-  margin-right: 38px;
+.member-info-table table:last-child {
+  border-top: none;
 }
 
 .member-info-table table td {
   border: 1px solid #093968;
-  padding: 15px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 25px;
   font-weight: bolder;
 }
 
 .member-info-table table td:first-child {
   color: #093968;
-  padding-right: 0px;
 }
 
 /* Edit Member Data */
@@ -425,10 +418,11 @@ button {
   font-size: 30px;
   width: 250px;
 }
+
 .select-project {
   background-color: transparent;
   border: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
