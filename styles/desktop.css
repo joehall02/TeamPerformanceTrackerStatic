@@ -111,3 +111,13 @@ nav ul li {
 .red-button:hover {
 	background-color: #135392;
 }
+
+/* Chart Styles */
+
+/* Doughnut Chart */
+
+.chartBox {
+	width: 740px;
+    height: 470px;
+	padding: 20px;
+}
