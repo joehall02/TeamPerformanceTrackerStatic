@@ -17,7 +17,11 @@
       <header>
         <nav>
           <ul>
-            <li><a href="sys-manager.html"><img class="logo" src="images/logo.jpeg" /></a></li>
+            <li>
+              <a href="sys-manager.html"
+                ><img class="logo" src="images/logo.jpeg"
+              /></a>
+            </li>
             <li><h2 class="name">Automation Team Performance Tracker</h2></li>
             <li><p class="page-name">Compare Data</p></li>
           </ul>
@@ -42,17 +46,12 @@
               <option value="hamster">Team 3</option>
               <option value="parrot">Team 4</option>
             </select>
-            <!-- <div class="bar-chart">
-              <img src="images/bar-graph-example.png" />
-            </div> -->
 
-            <div>
-              <div style="width: 580px; height: 500px; padding-right: 15px;">
-                  <canvas id="myBarChart1"></canvas>
-              </div>
+            <div class="bar-chart">
+              <canvas id="myBarChart1"></canvas>
+            </div>
           </div>
 
-          </div>
           <div>
             <select name="right-graph">
               <option value="">Please Choose a Team</option>
@@ -61,24 +60,19 @@
               <option value="hamster">Team 3</option>
               <option value="parrot">Team 4</option>
             </select>
-            <!-- <div class="bar-chart">
-              <img src="images/bar-graph-example.png" />
-            </div> -->
 
-            <div>
-              <div style="width: 580px; height: 500px;">
-                  <canvas id="myBarChart2"></canvas>
-              </div>
-          </div>
-
+            <div class="bar-chart">
+              <canvas id="myBarChart2"></canvas>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script><!--ChartJS CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script><!--Data labels plugin-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <!--ChartJS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+    <!--Data labels plugin-->
     <script src="js/barchart.js"></script>
-
   </body>
 </html>
