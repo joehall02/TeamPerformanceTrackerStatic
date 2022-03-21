@@ -89,16 +89,16 @@ nav ul li {
 
 /* View Member Data Table */
 
-.member-info-table {
+.spread-table {
   flex-direction: row;
 }
 
-.member-info-table table:first-child {
+.spread-table table:first-child {
   border-bottom: 4px solid #093968;
   border-right: none;
 }
 
-.member-info-table table:last-child {
+.spread-table table:last-child {
   border-top: 4px solid #093968;
   border-left: none;
 }

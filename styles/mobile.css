@@ -324,39 +324,39 @@ button {
 
 /* View Member Data Table */
 
-.member-info-table {
+.spread-table {
   display: flex;
   flex-direction: column;
 }
 
-.member-info-table table {
+.spread-table table {
   border: 4px solid #093968;
   border-spacing: 0;
   width: 100%;
 }
 
-.member-info-table table:first-child {
+.spread-table table:first-child {
   border-bottom: none;
 }
 
-.member-info-table table:last-child {
+.spread-table table:last-child {
   border-top: none;
 }
 
-.member-info-table table td {
+.spread-table table td {
   border: 1px solid #093968;
   padding: 20px;
   font-size: 25px;
   font-weight: bolder;
 }
 
-.member-info-table table td:first-child {
+.spread-table table td:first-child {
   color: #093968;
 }
 
 /* Edit Member Data */
 
-.member-info-table input {
+.spread-table input {
   border: none;
   font-weight: bold;
   background-color: lightgray;
@@ -364,44 +364,20 @@ button {
   width: 250px;
 }
 
-.member-info-table td:last-child {
+.spread-table td:last-child {
   padding: 0px 0px 0px 5px;
   background-color: lightgray;
   width: 255px;
 }
 
-.member-info-table input:focus {
+.spread-table input:focus {
   outline: none;
   padding: 0;
   width: 250px;
 }
 
-.member-info-table input::placeholder {
+.spread-table input::placeholder {
   color: black;
-}
-
-/* Select Project */
-
-.select-team {
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.select-team:focus {
-  outline: none;
-}
-
-.select-project-manager {
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.select-project-manager:focus {
-  outline: none;
 }
 
 /* Create project table */
@@ -419,16 +395,19 @@ button {
   width: 250px;
 }
 
-.select-project {
+/* Select  */
+
+.select {
   background-color: transparent;
   border: none;
   font-size: 20px;
   font-weight: bold;
 }
 
-.select-project:focus {
+.select:focus {
   outline: none;
 }
+
 /* create-team*/
 .create-team-table {
   border: 1px solid #093968;
