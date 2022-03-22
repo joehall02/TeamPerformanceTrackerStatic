@@ -99,6 +99,11 @@ nav ul li {
   border-left: none;
 }
 
+.spread-table table td {
+  font-size: 25px;
+  padding: 25px;
+}
+
 /* Buttons */
 .green-button {
   padding: 20px 40px 20px 40px;
@@ -134,9 +139,14 @@ nav ul li {
   padding: 20px;
 }
 /*create team */
-.enter-team-data{
-  display: flex;
+.enter-team-data {
   flex-direction: row;
-  padding-left: 25%;
-  padding-right: 25%;
+}
+
+.enter-team-data input {
+  width: 40%;
+}
+
+.add-team-member-buttons {
+  margin-top: 0;
 }

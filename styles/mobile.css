@@ -340,8 +340,8 @@ button {
 
 .spread-table table td {
   border: 1px solid #093968;
-  padding: 20px;
-  font-size: 25px;
+  padding: 15px;
+  font-size: 12px;
   font-weight: bolder;
 }
 
@@ -410,8 +410,7 @@ button {
   padding-left: 20%;
   font-size: 30px;
   font-weight: bolder;
-  justify-content:space-evenly;
-  
+  justify-content: space-evenly;
 }
 .create-team-table input {
   border: none;
@@ -440,28 +439,22 @@ button {
 .select-member:focus {
   outline: none;
 }
-.view-members {
-  background-color: #94c216;
-  color: white;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-  border-radius: 15px;
-}
 
-.view-members:focus {
-  outline: none;
-}
-
-.add-member-header {
-  padding-left: 42%;
-  font-size: 14pt;
-}
 .enter-team-data {
-  padding-left: 5%;
-  padding-right: 5%;
-  justify-content: space-evenly;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.enter-team-data input {
+  padding: 20px;
+}
+.add-team-member-buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.add-team-member-buttons div {
+  margin-right: 15px;
+}
