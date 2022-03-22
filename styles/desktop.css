@@ -47,15 +47,11 @@ nav ul li {
 
 .home-top div {
   padding: 0;
+  width: 50%;
 }
 
 /* Side Bar */
 .side-bar-container {
-  flex-direction: row;
-}
-
-/* Compare Teams page */
-.compare-graph-container {
   flex-direction: row;
 }
 
