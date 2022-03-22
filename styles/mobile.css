@@ -347,10 +347,14 @@ button {
 
 .t1 {
   margin-left: 38px;
+  display: flex;
+  flex-direction: column;
 }
 
 .t2 {
   margin-right: 38px;
+  display: flex;
+  flex-direction: column;
 }
 
 .member-info-table table td {
@@ -486,8 +490,8 @@ button {
 }
 
 .create-buttons {
-  display: flex;
-  justify-content: space-evenly;
+  display:flex;
+  flex-direction: row;
   margin: auto;
   margin-top: 35px;
   text-align: center;
