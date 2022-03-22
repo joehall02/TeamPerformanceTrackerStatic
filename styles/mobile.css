@@ -330,25 +330,12 @@ button {
   width: 100%;
 }
 
-<<<<<<< HEAD
-.t1 {
-  margin-left: 38px;
-  display: flex;
-  flex-direction: column;
-}
-
-.t2 {
-  margin-right: 38px;
-  display: flex;
-  flex-direction: column;
-=======
 .spread-table table:first-child {
   border-bottom: none;
 }
 
 .spread-table table:last-child {
   border-top: none;
->>>>>>> a7b6da44b86a9a988a847acd7f93a26e08c6ea22
 }
 
 .spread-table table td {
@@ -463,7 +450,7 @@ button {
 }
 
 .create-buttons {
-  display:flex;
+  display: flex;
   flex-direction: row;
   margin: auto;
   margin-top: 35px;
