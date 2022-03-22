@@ -407,8 +407,11 @@ button {
 .create-team-table {
   border: 1px solid #093968;
   padding: 15px;
+  padding-left: 20%;
   font-size: 30px;
   font-weight: bolder;
+  justify-content:space-evenly;
+  
 }
 .create-team-table input {
   border: none;
@@ -449,19 +452,15 @@ button {
   outline: none;
 }
 
-.create-buttons {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-top: 35px;
-  text-align: center;
-}
 .add-member-header {
   padding-left: 5%;
   font-size: 14pt;
 }
 .enter-team-data {
   padding-left: 5%;
-  justify-content:space-between;
+  padding-right: 5%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction:column;
 }
 

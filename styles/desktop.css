@@ -133,3 +133,10 @@ nav ul li {
   height: 470px;
   padding: 20px;
 }
+/*create team */
+.enter-team-data{
+  display: flex;
+  flex-direction: row;
+  padding-left: 25%;
+  padding-right: 25%;
+}
