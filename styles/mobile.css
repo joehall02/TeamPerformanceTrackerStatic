@@ -404,39 +404,28 @@ button {
 }
 
 /* create-team*/
-.create-team-table {
+.create-team-table table {
+  border: 4px solid #093968;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.create-team-table table tr {
+  border: 1px solid #093968;
+}
+
+.create-team-table table td {
   border: 1px solid #093968;
   padding: 15px;
-  padding-left: 20%;
-  font-size: 30px;
+  font-size: 12px;
   font-weight: bolder;
-  justify-content: space-evenly;
 }
-.create-team-table input {
-  border: none;
-  font-weight: bold;
-  background-color: lightgray;
-  font-size: 30px;
-  width: 250px;
-}
-.select-project {
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
+
+.create-team-table table td:first-child {
+  color: #093968;
 }
 
 .select-team:focus {
-  outline: none;
-}
-.select-member {
-  background-color: transparent;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.select-member:focus {
   outline: none;
 }
 
