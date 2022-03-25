@@ -1,87 +1,127 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actemium tpt | Member Data </title>
+    <title>Actemium tpt | Member Data</title>
     <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
-    <link rel="stylesheet" media="only screen and (min-width:1000px)" href="styles/desktop.css" />
-</head>
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:1000px)"
+      href="styles/desktop.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="sys-manager.html"><img class="logo" src="images/logo.jpeg" /></a></li>
-                    <li>
-                        <h2 class="name">Automation Team Performance Tracker</h2>
-                    </li>
-                    <li>
-                        <p class="page-name">Create Team</p>
-                    </li>
-                </ul>
-            </nav>
-    </div>
-    <div class="main">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="sys-manager.html"
+                ><img class="logo" src="images/logo.jpeg"
+              /></a>
+            </li>
+            <li>
+              <h2 class="name">Automation Team Performance Tracker</h2>
+            </li>
+            <li>
+              <p class="page-name">Create Team</p>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main">
         <div class="heading">
-            <h1>New Team</h1>
+          <h1>New Team</h1>
         </div>
-    </div>
 
-    <div class = "create-team-table">
-        <table>
-        <td>Team Name:</td>
-        <td><input type="text" name="" id="">
-        <td>Team Leader</td>
-        <td><select class="select-member">
-                <option value="">Select Member</option>
-                <option value="p1">Member 1</option>
-                <option value="p2">Member 2</option>
-                <option value="p3">Member 3</option>
-                <option value="p4">Member 4</option>
-            </select></td>
-        <tr></tr>
-        <td>Project:</td>
-        <td><select class="select-project">
-            <option value="">Select Project</option>
-            <option value="p1">Project 1</option>
-            <option value="p2">Project 2</option>
-            <option value="p3">Project 3</option>
-            <option value="p4">Project 4</option>
-        </select></td>
-        <td><select class="select-project">
-                <option value="">Select Project</option>
-                <option value="p1">Project 1</option>
-                <option value="p2">Project 2</option>
-                <option value="p3">Project 3</option>
-                <option value="p4">Project 4</option>
-            </select></td>
-            <td><select class="select-project">
-                    <option value="">Select Project</option>
-                    <option value="p1">Project 1</option>
-                    <option value="p2">Project 2</option>
-                    <option value="p3">Project 3</option>
-                    <option value="p4">Project 4</option>
-                </select></td>
-        </table>
-    </div>
+        <div class="create-team-table">
+          <table>
+            <tr>
+              <td>Team Name:</td>
+              <td><input type="text" name="" id="" /></td>
+              <td>Team Leader</td>
+              <td>
+                <select class="select">
+                  <option value="">Select Member</option>
+                  <option value="p1">Member 1</option>
+                  <option value="p2">Member 2</option>
+                  <option value="p3">Member 3</option>
+                  <option value="p4">Member 4</option>
+                </select>
+              </td>
+            </tr>
 
-    <div class = "create-buttons">
-        <h3>Add Team Member</h3>
-        <input type="text" name="" id="">
-        <button class="green-button-small" >add</button>
-        <td><select class="view-members">
-                <option value="">view members</option>
-                <option value="p1">Member 1</option>
-                <option value="p2">Member 2</option>
-                <option value="p3">Member 3</option>
-                <option value="p4">Member 4</option>
-            </select></td>
+            <tr>
+              <td>Project:</td>
+              <td>
+                <select class="select">
+                  <option value="">Select Project</option>
+                  <option value="p1">Project 1</option>
+                  <option value="p2">Project 2</option>
+                  <option value="p3">Project 3</option>
+                  <option value="p4">Project 4</option>
+                </select>
+              </td>
+              <td>
+                <select class="select">
+                  <option value="">Select Project</option>
+                  <option value="p1">Project 1</option>
+                  <option value="p2">Project 2</option>
+                  <option value="p3">Project 3</option>
+                  <option value="p4">Project 4</option>
+                </select>
+              </td>
+              <td>
+                <select class="select">
+                  <option value="">Select Project</option>
+                  <option value="p1">Project 1</option>
+                  <option value="p2">Project 2</option>
+                  <option value="p3">Project 3</option>
+                  <option value="p4">Project 4</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="heading">
+          <h1>Add Team Member</h1>
+        </div>
+
+        <div class="enter-team-data">
+          <input type="text" name="" id="" />
+          <div class="add-team-member-buttons">
+            <div class="green-button" style="width: 120px; text-align: center">
+              Add
+            </div>
+            <select class="green-button">
+              <option value="">view members</option>
+              <option value="p1">Member 1</option>
+              <option value="p2">Member 2</option>
+              <option value="p3">Member 3</option>
+              <option value="p4">Member 4</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="btn-bottom">
+          <a
+            href="sys-manager.html"
+            class="green-button"
+            style="width: 140px; text-align: center"
+            >Back</a
+          >
+          <a
+            href="sys-manager.html"
+            class="green-button"
+            style="width: 140px; text-align: center"
+            >Create Team</a
+          >
+        </div>
+      </div>
     </div>
-    
-    <div class="btn">
-        <a href="sys-manager.html" class="green-button" style="width: 140px; text-align: center;">Back</a>
-        <a href="sys-manager.html" class="green-button" style="width: 140px; text-align: center;">Create Team</a>
-    </div>
+  </body>
+</html>

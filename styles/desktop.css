@@ -46,16 +46,12 @@ nav ul li {
 }
 
 .home-top div {
-	padding: 0;
+  padding: 0;
+  width: 50%;
 }
 
 /* Side Bar */
 .side-bar-container {
-	flex-direction: row;
-}
-
-/* Compare Teams page */
-.compare-graph-container {
 	flex-direction: row;
 }
 
@@ -103,6 +99,11 @@ nav ul li {
 	border-left: none;
 }
 
+.spread-table table td {
+  font-size: 25px;
+  padding: 25px;
+}
+
 /* Buttons */
 .green-button {
 	padding: 20px 40px 20px 40px;
@@ -137,59 +138,15 @@ nav ul li {
 	height: 470px;
 	padding: 20px;
 }
-
-/* view team data page */
-
-/* Performance table */
-.performance-table-TD table:first-child {
-	margin-right: 10%;
+/*create team */
+.enter-team-data {
+  flex-direction: row;
 }
 
-.performance-table-TD table td {
-	font-size: large;
+.enter-team-data input {
+  width: 40%;
 }
 
-.performance-table-TD table thead {
-	font-size: large;
-}
-
-.performance-table-TD p {
-	text-align: center;
-}
-
-.content {
-	display: flex;
-	flex-direction: row;
-}
-
-.mini-nav {
-	margin-bottom: 15px;
-}
-
-.main-section {
-	display: flex;
-	flex-direction: column;
-	margin-left: 30px;
-}
-
-.graphs,
-.tables,
-#feedback-scores {
-	display: flex;
-	flex-direction: row;
-}
-
-.line-graph-performance {
-	width: 50%;
-	height: 50vh;
-	margin-left: 20px;
-}
-
-.bar-chart-performance {
-	width: 50%;
-	height: 50vh;
-}
-
-#EF {
- margin-left: 95px;
+.add-team-member-buttons {
+  margin-top: 0;
 }
