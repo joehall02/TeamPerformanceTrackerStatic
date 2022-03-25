@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Actemium tpt | Engineer Feedback</title>
+    <title>Actemium tpt | Compare</title>
     <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
     <link
       rel="stylesheet"
@@ -17,9 +17,13 @@
       <header>
         <nav>
           <ul>
-            <li><a href="#"><img class="logo" src="images/logo.jpeg" /></a></li>
+            <li>
+              <a href="sys-manager.html"
+                ><img class="logo" src="images/logo.jpeg"
+              /></a>
+            </li>
             <li><h2 class="name">Automation Team Performance Tracker</h2></li>
-            <li><p class="page-name">Compare Data</p></li>
+            <li><p class="page-name">Engineer Feedback</p></li>
           </ul>
         </nav>
       </header>
@@ -28,7 +32,7 @@
         <div class="heading">
           <h1>Engineer Feedback</h1>
           <div class="heading-buttons">
-            <a href="create-member.html" class="green-button-small">Go Back</a>
+            <a onclick="history.back()" class="green-button-small">Go Back</a>
           </div>
         </div>
 
@@ -42,10 +46,12 @@
               <option value="hamster">Member 3</option>
               <option value="parrot">Member 4</option>
             </select>
+
             <div class="bar-chart">
-              <img src="images/bar-graph-example.png" />
+              <canvas id="myBarChart1"></canvas>
             </div>
           </div>
+
           <div>
             <select name="right-graph">
               <option value="">Please Choose a Member</option>
@@ -54,12 +60,19 @@
               <option value="hamster">Member 3</option>
               <option value="parrot">Member 4</option>
             </select>
+
             <div class="bar-chart">
-              <img src="images/bar-graph-example.png" />
+              <canvas id="myBarChart2"></canvas>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <!--ChartJS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+    <!--Data labels plugin-->
+    <script src="js/barchart.js"></script>
   </body>
 </html>
