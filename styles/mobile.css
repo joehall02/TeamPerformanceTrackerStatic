@@ -589,6 +589,7 @@ button {
 .team-name {
   display: flex;
   flex-direction: row;
+  margin-bottom: 15px;
 }
 
 .team-name p {
@@ -596,6 +597,16 @@ button {
 }
 
 .edit-team-members {
+}
+
+.edit-team-members table tr td:first-child {
+  font-size: large;
+  padding-right: 10px;
+}
+
+.edit-team-members input {
+  padding: 15px;
+  width: 160px;
 }
 
 .team-name input {

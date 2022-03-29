@@ -224,3 +224,7 @@ nav ul li {
 .edit-team-container {
   flex-direction: row;
 }
+
+.edit-team-members input {
+  width: 200px;
+}
