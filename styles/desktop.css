@@ -215,3 +215,12 @@ nav ul li {
 .select {
   font-size: 25px;
 }
+
+/*Edit team*/
+.edit-team-container-1 {
+  flex-direction: row;
+}
+
+.edit-team-container {
+  flex-direction: row;
+}
