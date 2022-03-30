@@ -404,6 +404,10 @@ button {
 }
 
 /* create-team*/
+.create-team-table {
+  width: 100%;
+}
+
 .create-team-table table {
   border: 4px solid #093968;
   border-spacing: 0;
