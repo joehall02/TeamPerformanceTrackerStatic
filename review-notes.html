@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actemium tpt | View Team Data</title>
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+    <link rel="stylesheet" media="only screen and (min-width:1000px)" href="styles/desktop.css"/>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><img class="logo" src="images/logo.jpeg" /></a>
+            </li>
+            <li><h2 class="name">Automation Team Performance Tracker</h2></li>
+            <li><p class="page-name">View Team Data</p></li>
+          </ul>
+        </nav>
+      </header>
+
+        <div class="content">
+            <div class="mini-nav-all">
+
+                <div class="main" style="margin-bottom: 15px;">
+                    <div class="heading">
+                      <h1>Team 1</h1>
+                    </div>
+                </div>
+
+                <div class="mini-nav">
+                    <div>
+                        <a href="team-data.html" style="color: #8B0497; text-decoration: underline;">Team Performance</a>
+                    </div>
+                    <div>
+                        <a href="engineer-feedback.html">Feedback Scores of Engineers</a>
+                    </div>
+                    <div>
+                        <a href="#" style="color: #8B0497; text-decoration: underline;">Review Notes</a>
+                    </div>
+                    <div>
+                        <select class="select-project-link">
+                            <option value="p1"><a href="#">Project 1</a></option>
+                            <option value="p2"><a href="#">Project 2</a></option>
+                            <option value="p3"><a href="#">Project 3</a></option>
+                            <option value="p4"><a href="#">Project 4</a></option>
+                        </select>
+                    </div>
+                    <div>
+                        <a href="#">Members</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="main-section">
+                <div class="comment-details">
+                    <p class="leader-name">Josh Smith (Team Leader)</p>
+                    <p>The Budget changed to 120k from 100k because we hired new engineer for project </p>
+                    <p class="updated-budget">Project Budget: £100K</p>
+                    <p class="date-time-posted">11/09/2022 14:19</p>
+                </div>
+                <div class="comment-details">
+                    <p class="leader-name">Bennie Halt (Team Leader)</p>
+                    <p>The Budget changed to 120k from 100k because we hired 2 Business Analysts and an extra Backend Developer</p>
+                    <p class="updated-budget">Project Budget: £13,545</p>
+                    <p class="date-time-posted">02/06/2022 20:30</p>
+                </div>
+                <div class="comment-details">
+                    <p class="leader-name">Elijah Pope (Team Leader)</p>
+                    <p>The Budget changed to £13,545 from £11,750 because the customer requested more features </p>
+                    <p class="updated-budget">Project Budget: £13,545</p>
+                    <p class="date-time-posted">29/03/2022 03:13</p>
+                </div>
+
+                <div class="btn-bottom" style="justify-content: end;">
+                    <a href="sys-manager.html" class="green-button-small">Back</a>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <!--ChartJS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+    <!--Data labels plugin-->
+    <script src="js/barchartPerformance.js"></script>
+    <script src="js/linechartMember.js"></script>
+
+  </body>
+</html>
