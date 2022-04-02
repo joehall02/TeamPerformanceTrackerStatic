@@ -17,12 +17,13 @@
       <header>
         <nav>
           <ul>
-            <li><a href="#"><img class="logo" src="images/logo.jpeg" /></a></li>
+            <li>
+              <a href="#"><img class="logo" src="images/logo.jpeg" /></a>
+            </li>
             <li><h2 class="name">Automation Team Performance Tracker</h2></li>
             <li><p class="page-name">Home Page</p></li>
           </ul>
         </nav>
-      </div>
       </header>
 
       <div class="main">
@@ -31,17 +32,17 @@
           <div class="heading-buttons">
             <a href="create-member.html" class="green-button">Create Member</a>
             <a href="compare-teams.html" class="green-button">Compare Teams</a>
-            <a href="create-project.html" class="green-button">Create Project</a>
+            <a href="create-project.html" class="green-button"
+              >Create Project</a
+            >
             <a href="create-team.html" class="green-button">Create Team</a>
           </div>
         </div>
 
         <div class="home-top">
-          
           <div class="line-graph">
-              <canvas id="myLineChartTeam"></canvas>
+            <canvas id="myLineChartTeam"></canvas>
           </div>
-          
 
           <!-- Dynamic -->
           <div class="performance-table">
@@ -54,25 +55,25 @@
               <tbody>
                 <tr>
                   <td>Monthly Profit:</td>
-                  <td style="color: #B00808; opacity: 75%;">£0.484</td>
+                  <td style="color: #b00808; opacity: 75%">£0.484</td>
                 </tr>
                 <tr>
                   <td>Monthly Profit (%):</td>
-                  <td style="color: #B00808; opacity: 75%;">-0.85%</td>
+                  <td style="color: #b00808; opacity: 75%">-0.85%</td>
                 </tr>
                 <tr>
                   <td>Total Profit</td>
-                  <td style="color: #1AB03B; opacity: 75%;">£16,545</td>
+                  <td style="color: #1ab03b; opacity: 75%">£16,545</td>
                 </tr>
                 <tr>
                   <td>Profit (%)</td>
-                  <td style="color: #1AB03B; opacity: 75%;">27.54%</td>
+                  <td style="color: #1ab03b; opacity: 75%">27.54%</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        
+
         <div class="heading">
           <h1>Teams</h1>
         </div>
@@ -106,9 +107,10 @@
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script><!--ChartJS CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script><!--Data labels plugin-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <!--ChartJS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+    <!--Data labels plugin-->
     <script src="js/linechartTeam.js"></script>
-
   </body>
 </html>
